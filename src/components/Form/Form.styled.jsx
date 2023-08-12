@@ -2,12 +2,10 @@ import styled from "styled-components";
 
 export const FormTag = styled.form`
   box-sizing: border-box;
-  padding: 30px;
   width: 360px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border: 1px solid black;
 `;
 
 export const Lable = styled.label`
@@ -20,5 +18,10 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 50px;
 `;
