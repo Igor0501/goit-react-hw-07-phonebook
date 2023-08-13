@@ -27,7 +27,7 @@ const Contact = ({ contact }) => {
             strokeColor="grey"
             strokeWidth="5"
             animationDuration="0.75"
-                      width="15
+            width="15
             "
             visible={true}
           />
